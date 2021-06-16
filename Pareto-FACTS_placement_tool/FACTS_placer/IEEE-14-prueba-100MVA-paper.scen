@@ -1,0 +1,15 @@
+ARCHIVO DE DATOS PARA LA CREACION DE ESCENARIOS DE GENERACION/DEMANDA (no eliminar ni añadir líneas a este archivo)
+
+- Archivo de datos de escenarios de demanda
+demanda_horaria_17-18.csv
+
+- Numero valores de potencia a estudiar
+wind-power-dk_2018_hourly-NordPool-reduc.csv
+
+- Numero valores de potencia a estudiar
+1
+
+- Vector de valores de penetracion renovable
+100,
+
+
