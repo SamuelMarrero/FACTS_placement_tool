@@ -1,9 +1,9 @@
 # FACTS_placement_tool
 A FACTS placement tool based on hourly demand data and Pareto optimality
 
-This tool divided into two different parts. The first one is intended to automate PSS-E to perform power flow simultations (FACTS_placement_Demand-variation.py). The second one is intended to compute the indicators and execute the decision making algorithm (FACT_placer\pareto_calculation.py).
+This tool is divided into two different parts. The first one is intended to automate the simulation software (PSS-E) to perform power flow simultations (FACTS_placement_Demand-variation.py). The second one is intended to compute the indicators and execute the decision making algorithm (FACT_placer\pareto_calculation.py).
 
-Two configuration files need to be provided. These files must have the same name, which is the name of the "study". The file whose extension is ".test" is intended to configure the P-V study and the FACTS device implementation. The one whose extension is ".scen" includes the information needed to create the demand scenarios. Demand data shoud be provided in a ".csv" file placed in the proper directory. A set of 8760 substation demand scenarios is provided, which have been obtained from (URL: https://www.ausgrid.com.au/Industry/Our-Research/Data-to-share/Distribution-zone-substation-data).
+Two configuration files need to be provided. These files must have the same name, which is the name of the "study". The file whose extension is ".test" is intended to configure the P-V study and the FACTS device implementation. The one whose extension is ".scen" includes the information needed to create the demand scenarios. Demand data shoud be provided in a ".csv" file placed in the proper directory. A set of 8760 substation demand scenarios is provided, which have been obtained from https://www.ausgrid.com.au/Industry/Our-Research/Data-to-share/Distribution-zone-substation-data.
 
 The results of the simulations will be stored in "\studies\name_of_the_study". A ".sav" file is created for each simulation, as well as data file. Data files are used by paret_calculation.py to compute indices and perform the placement selection.
 
